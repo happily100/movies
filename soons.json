@@ -1,0 +1,201 @@
+[{
+  "_id": {
+    "$oid": "60d2dba4b7d9403bd0745bf4"
+  },
+  "jname": "完美受害人",
+  "jtime": "6月25日上映",
+  "jdirector": "杨泷杰",
+  "jactor": "李乃文 / 冯文娟 / 张峻宁 / 谭凯 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dbe8dbf7910cac476c46"
+  },
+  "jname": "我没谈完的那场恋爱",
+  "jtime": "6月25日上映",
+  "jdirector": "赵宇",
+  "jactor": "于文文 / 宋宁峰 / 刘琦 / 李博 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dc2cdbf7910cac476c49"
+  },
+  "jname": "李雷和韩梅梅",
+  "jtime": "6月26日上映",
+  "jdirector": "万鹏",
+  "jactor": "张子枫 / 张逸杰 / 成梓宁 / 常铖 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dc5ddbf7910cac476c4c"
+  },
+  "jname": "1921",
+  "jtime": "7月01日上映",
+  "jdirector": "黄建新 / 郑大圣",
+  "jactor": "黄轩 / 倪妮 / 袁文康 / 祖峰 / 窦骁",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dc8edbf7910cac476c4f"
+  },
+  "jname": "革命者",
+  "jtime": "7月01日上映",
+  "jdirector": "徐展雄",
+  "jactor": "张颂文 / 李易峰 / 佟丽娅 / 彭昱畅 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dcb4dbf7910cac476c52"
+  },
+  "jname": "悬崖",
+  "jtime": "7月02日上映",
+  "jdirector": "韩志",
+  "jactor": "王迅 / 李易祥 / 张磊 / 王佳佳 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dcecdbf7910cac476c55"
+  },
+  "jname": "狼行者",
+  "jtime": "7月03日上映",
+  "jdirector": "汤姆·摩尔 / Ross Stewart",
+  "jactor": "肖恩·宾 / 奥娜·科尼费斯",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dd13dbf7910cac476c58"
+  },
+  "jname": "中国医生",
+  "jtime": "7月09日上映",
+  "jdirector": "刘伟强",
+  "jactor": "张涵予 / 袁泉 / 朱亚文 / 李晨 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dd4bdbf7910cac476c5b"
+  },
+  "jname": "新大头儿子和小头爸爸4：完美爸爸",
+  "jtime": "7月09日上映",
+  "jdirector": "何澄 / 刘可欣",
+  "jactor": "",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dd71dbf7910cac476c5e"
+  },
+  "jname": "再见汪先森",
+  "jtime": "7月09日上映",
+  "jdirector": "王大治",
+  "jactor": "萧子墨 / 张国强 / 吕晓霖 / 柴碧云 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dd9adbf7910cac476c61"
+  },
+  "jname": "俑之城",
+  "jtime": "7月10日上映",
+  "jdirector": "丁亮 / 林汇达 / 陈娇艳",
+  "jactor": "谭笑 / 周子瑜 / 刘沛",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2de05dbf7910cac476c64"
+  },
+  "jname": "独家头条：初露锋芒",
+  "jtime": "7月09日上映",
+  "jdirector": "周文武贝",
+  "jactor": "黄觉 / 黄龄 / 余佳妙 / 刘帅良 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2de2edbf7910cac476c67"
+  },
+  "jname": "大学",
+  "jtime": "7月09日上映",
+  "jdirector": "孙虹 / 王静 / 柯永权",
+  "jactor": "钱易 / 蔡峥 / 宋云天 / 严韫洲",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2de6fdbf7910cac476c6a"
+  },
+  "jname": "七月的舞步",
+  "jtime": "7月10日上映",
+  "jdirector": "曹岸",
+  "jactor": "张予曦 / 黄小蕾 / 黄景行 / 姜超",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2de96dbf7910cac476c6d"
+  },
+  "jname": "笨鸟大冒险",
+  "jtime": "7月10日上映",
+  "jdirector": "",
+  "jactor": "",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2deb1dbf7910cac476c70"
+  },
+  "jname": "天工苏作",
+  "jtime": "7月10日上映",
+  "jdirector": "孙曾田",
+  "jactor": "李立宏",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2ded4dbf7910cac476c73"
+  },
+  "jname": "二哥来了怎么办",
+  "jtime": "7月16日上映",
+  "jdirector": "郑芬芬",
+  "jactor": "胡先煦 / 邓恩熙 / 郑伟 / 代乐乐 /",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2def6dbf7910cac476c76"
+  },
+  "jname": "天下无拐",
+  "jtime": "7月16日上映",
+  "jdirector": "张鑫",
+  "jactor": "吕良伟 / 郑昊 / 何政军 / 舒耀瑄 /",
+  "__v": 0,
+  "jtype": "即将上映"
+},{
+  "_id": {
+    "$oid": "60d2df18dbf7910cac476c79"
+  },
+  "jname": "济公之降龙降世",
+  "jtime": "7月16日上映",
+  "jdirector": "刘志江 / 乔彧",
+  "jactor": "",
+  "jtype": "即将上映",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2dfd3dbf7910cac476c7c"
+  },
+  "jname": "足球爸爸",
+  "jtime": "7月17日上映",
+  "jdirector": "米禾禾",
+  "jactor": "孟鹏 / 刘国山 / 平阳宗汉",
+  "jtype": "即将上映",
+  "__v": 0
+}]
