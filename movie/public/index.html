@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <!-- bootstrap样式 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+    <style type="text/css">
+        body {
+            text-align: center;
+            margin:0 auto;
+            padding: 200px 500px;
+        }
+        </style>
+</head>
+<body>      
+    <form action="/input" method="get" style="font-size:20px">
+        用户名：&nbsp;&nbsp;&nbsp;<input type="text" name="name" value=""><br><br>
+        密 码：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="password" value=""><br><br>
+        <select name="usertype">
+            <option value="管理员">管理员</option>
+            <option value="用户">用户</option>
+        </select><br><br>
+        <input type="submit" name="submit1" value="登录" style="font-size:20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" name="submit1" value="注册" style="font-size:20px">
+    </form>
+</body>
+</html>

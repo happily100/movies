@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理员首页</title>
+  <!-- bootstrap样式 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <form action="/adminall" method="get" style="font-size:20px">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+          <a class="text-muted">电影首页</a>
+        </div>
+        <div class="col-4 text-center">
+          <input type="submit" name="submit" value="查询" class="btn btn-sm btn-outline-secondary">
+          <input type="text" name="aname" value="">
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <input type="submit" name="submit" value="登录" class="btn btn-sm btn-outline-secondary">
+        </div>
+      </div>
+    </header>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">电影编号</th>
+          <th scope="col">电影名称</th>
+          <th scope="col">上映时间</th>
+          <th scope="col">导演</th>
+          <th scope="col">演员</th>
+          <th scope="col">
+            <input type="submit" name="submit" value="全部" class="btn btn-outline-dark">
+          </th>
+          <th>
+            <input type="submit" name="submit" value="增加" class="btn btn-outline-dark">
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <%for(i in message){%>
+        <tr style="font-size: 17px;">
+          <th scope="row">
+              <%= message[i]._id %>      
+          </th>
+          <td>
+              <%= message[i].aname %>
+          </td>
+          <td>
+              <%= message[i].atime %>
+          </td>
+          <td>
+              <%= message[i].adirector %>
+          </td>
+          <td >
+            <%= message[i].aactor %>
+          </td>
+          <td>
+            <a href="/admindetail?aname=<%= message[i].aname %>" class="btn btn-outline-dark">详情</a>
+          </td>
+        </tr>
+        <%}%>
+      </tbody>
+    </table>
+  </form>
+</body>
+
+</html>

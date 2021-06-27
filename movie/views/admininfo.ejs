@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电影信息</title>
+    <!-- bootstrap样式 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body {
+            text-align: center;
+            margin:0 auto;
+        }
+        </style>
+</head>
+
+<body class="py-4">
+    <form action="/admininfo" method="get" style="font-size:20px">         
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><input class="btn btn-link" type="submit" name="submit" value="电影首页"></li>
+                <li class="breadcrumb-item active" aria-current="page">电影信息</li>
+            </ol>
+        </nav>
+
+        <div class="input-group mb-3">
+            电影编号：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" name="_id" value="<%for(i in message){%><%= message[i]._id %><%}%>" readonly="readonly">
+        </div>
+        <div class="input-group mb-3">
+            电影名称：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" name="aname" value="<%for(i in message){%><%= message[i].aname %><%}%>">
+        </div>
+
+        <div class="input-group mb-3">
+            上映时间：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" name="atime" value="<%for(i in message){%><%= message[i].atime %><%}%>">
+        </div>
+        <div class="input-group mb-3">
+            导演：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" name="adirector" value="<%for(i in message){%><%= message[i].adirector %><%}%>">
+        </div>
+        <div class="input-group mb-3">
+            演员：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" name="aactor" value="<%for(i in message){%><%= message[i].aactor %><%}%>">
+        </div>
+        <div class="input-group mb-3">
+            剧情介绍：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" name="astory" value="<%for(i in message){%><%= message[i].astory %><%}%>">
+        </div>
+        <div class="input-group mb-3">
+            电影图片：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" name="apicture" value="<%for(i in message){%><%= message[i].apicture %><%}%>">
+        </div>
+        <input type="submit" name="submit" value="修改" class="btn btn-sm btn-outline-secondary">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" name="submit" value="删除" class="btn btn-sm btn-outline-secondary"><br>
+    </div>
+</form>
+</body>
+
+</html>
