@@ -10,13 +10,21 @@
 	管理员可以在查询、查看电影信息之外，增加、删除、修改电影信息。
 ## 2.2	页面说明
 页面名称 	功能
+
 index.html	登录注册界面
+
 user.ejs	登录注册界面
+
 userhome.ejs	用户主页
+
 userhot.ejs	热播电影界面
+
 usersoon.ejs	即将上映电影界面
+
 userinfo.ejs	电影详情界面
+
 adminall.ejs	管理员首页（电影全部信息）
+
 admininfo.ejs	电影详情界面（可进行修改、删除）
 add.ejs	增加电影界面
 ## 2.3	电影信息数据库设计
